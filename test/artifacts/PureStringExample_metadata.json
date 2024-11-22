@@ -1,0 +1,70 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "a",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "b",
+						"type": "string"
+					}
+				],
+				"name": "concatenate",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"test/PureStringExample.sol": "PureStringExample"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"test/PureStringExample.sol": {
+			"keccak256": "0x9d02f87d95b9bc4e7b06674196be28a33b973567664fce0f9f81106b0adc954e",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://62e56f9c218e60c940b4a04669c447b73a56db1001051a020be73dfc6c81840b",
+				"dweb:/ipfs/QmSuaJvZ8fw3W3dbTNasG4wXwTKtQiXJtpPMFZpqW54Na5"
+			]
+		}
+	},
+	"version": 1
+}
